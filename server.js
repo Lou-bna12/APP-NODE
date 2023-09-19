@@ -4,8 +4,8 @@ const app = express();
 
 //Routes
 
-app.get('/',(req, res) =>{
-    res.send('Bonjour tout le monde')
+app.get('/blog',(req, res) =>{
+    res.send('Hey blog')
 });
 
 app.listen(5000, () =>{
